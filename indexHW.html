@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework - Contact form in DOM</title>
+
+    <link rel="stylesheet" href="styleHW.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+    <script src="mainHW.js" defer></script>
+</head>
+<body>
+    <main class = "main-container">
+    <form action="" class = "contact-form">
+        <section class = "flex left">
+            <p>
+                <label></label><input type="text" name="first name" value="" placeholder="First Name" class="js-required fname"></label>
+            </p>
+
+            <p>
+                <label></label><input type="text" name="last name" value="" placeholder="Last Name" class="js-required"></label>
+            </p>
+
+            <p>
+                <span>Gender</span>
+                <br>
+                <label><input type="radio" class="gender" name="gender" value="m">M</label>
+                <br>
+                <label><input type="radio" class="gender" name="gender" value="f">F</label>
+            </p>
+
+            <p>
+                <label><textarea name="text" cols="30" rows="10" placeholder="Your message here..." class="js-required yourMsg"></textarea></label>
+            </p>
+
+            <p>
+                <button type="submit" class ="button">Submit</button>
+            </p>
+        </section>
+
+        <section class = "flex right">
+            <img id="myImg" src="getInTouch.png" alt="Get-in-touch">
+        </section>
+
+    </form>
+</main>
+</body>
+</html>
