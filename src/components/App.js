@@ -1,12 +1,23 @@
 import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+
 import Header from './header/Header';
+import MovieList from './movies/MovieList';
+import MovieDetails from './movies/MovieDetails';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
-        <div>
+        <BrowserRouter>
             <Header user="Alexandru" />
-            <a href="https://scoalainformala.ro" target="_blank" rel="noopener noreferrer">Scoala Informala</a>
-        </div>
+            <Route exact path="/">
+                <MovieList />
+            </Route>
+            <Route path="/movies/:movieId">
+                <MovieDetails />
+            </Route>
+        </BrowserRouter>
     );
 }
 
