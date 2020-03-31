@@ -1,0 +1,271 @@
+{
+  "id": "2edf64fc-9133-705a-dcdd-13716db795dc",
+  "name": "Games-SIIT",
+  "description": "",
+  "order": [
+      "5475c6f4-8193-b58d-3486-39b6301083fe",
+      "2d7060db-3948-e204-b78d-b1f516cd1569",
+      "550a71d3-8a73-8d42-c473-52cd0bd46f01",
+      "353b6038-7a2d-ad3f-47d6-6f91b3879f51",
+      "bc510b79-39dd-e8e2-f7ee-1dacef784a59",
+      "b80b2287-ff86-78ba-caac-d9522df90f9c"
+  ],
+  "folders": [],
+  "folders_order": [],
+  "timestamp": 1517307004759,
+  "owner": "1072390",
+  "public": false,
+  "requests": [
+      {
+          "id": "2d7060db-3948-e204-b78d-b1f516cd1569",
+          "headers": "Content-Type: application/x-www-form-urlencoded\n",
+          "headerData": [
+              {
+                  "key": "Content-Type",
+                  "value": "application/x-www-form-urlencoded",
+                  "description": "",
+                  "enabled": true
+              }
+          ],
+          "url": "https://games-world.herokuapp.com/games",
+          "queryParams": [],
+          "preRequestScript": null,
+          "pathVariables": [],
+          "pathVariableData": [],
+          "method": "GET",
+          "data": [
+              {
+                  "key": "username",
+                  "value": "alexandra_123",
+                  "description": ""
+              },
+              {
+                  "key": "password",
+                  "value": "test",
+                  "description": ""
+              }
+          ],
+          "dataMode": "urlencoded",
+          "version": 2,
+          "tests": null,
+          "currentHelper": "normal",
+          "helperAttributes": [],
+          "time": 1517565480063,
+          "name": "Get All Games",
+          "description": "",
+          "collectionId": "2edf64fc-9133-705a-dcdd-13716db795dc",
+          "responses": []
+      },
+      {
+          "id": "353b6038-7a2d-ad3f-47d6-6f91b3879f51",
+          "headers": "Content-Type: application/x-www-form-urlencoded\n",
+          "headerData": [
+              {
+                  "key": "Content-Type",
+                  "value": "application/x-www-form-urlencoded",
+                  "description": "",
+                  "enabled": true
+              }
+          ],
+          "url": "https://games-world.herokuapp.com/games/5a70969836b0af128e842fc4",
+          "queryParams": [],
+          "preRequestScript": null,
+          "pathVariables": [],
+          "pathVariableData": [],
+          "method": "DELETE",
+          "data": [],
+          "dataMode": "urlencoded",
+          "version": 2,
+          "tests": null,
+          "currentHelper": "normal",
+          "helperAttributes": [],
+          "time": 1517565581125,
+          "name": "Delete Game",
+          "description": "",
+          "collectionId": "2edf64fc-9133-705a-dcdd-13716db795dc",
+          "responses": []
+      },
+      {
+          "id": "5475c6f4-8193-b58d-3486-39b6301083fe",
+          "headers": "Content-Type: application/x-www-form-urlencoded\n",
+          "headerData": [
+              {
+                  "key": "Content-Type",
+                  "value": "application/x-www-form-urlencoded",
+                  "description": "",
+                  "enabled": true
+              }
+          ],
+          "url": "https://games-world.herokuapp.com/games/5a70969836b0af128e842fc2",
+          "queryParams": [],
+          "preRequestScript": null,
+          "pathVariables": [],
+          "pathVariableData": [],
+          "method": "GET",
+          "data": [
+              {
+                  "key": "username",
+                  "value": "alexandra_123",
+                  "description": ""
+              },
+              {
+                  "key": "password",
+                  "value": "test",
+                  "description": ""
+              }
+          ],
+          "dataMode": "urlencoded",
+          "version": 2,
+          "tests": null,
+          "currentHelper": "normal",
+          "helperAttributes": [],
+          "time": 1517565500789,
+          "name": "Get GameDetails",
+          "description": "",
+          "collectionId": "2edf64fc-9133-705a-dcdd-13716db795dc",
+          "responses": []
+      },
+      {
+          "id": "550a71d3-8a73-8d42-c473-52cd0bd46f01",
+          "headers": "Content-Type: application/x-www-form-urlencoded\n",
+          "headerData": [
+              {
+                  "key": "Content-Type",
+                  "value": "application/x-www-form-urlencoded",
+                  "description": "",
+                  "enabled": true
+              }
+          ],
+          "url": "https://games-world.herokuapp.com/games/5a70969836b0af128e842fc4",
+          "folder": null,
+          "queryParams": [],
+          "preRequestScript": null,
+          "pathVariables": [],
+          "pathVariableData": [],
+          "method": "PUT",
+          "data": [
+              {
+                  "key": "title",
+                  "value": "Game 12",
+                  "description": "",
+                  "type": "text",
+                  "enabled": true
+              }
+          ],
+          "dataMode": "urlencoded",
+          "tests": null,
+          "currentHelper": "normal",
+          "helperAttributes": [],
+          "time": 1517565576174,
+          "name": "Update Game",
+          "description": "",
+          "collectionId": "2edf64fc-9133-705a-dcdd-13716db795dc",
+          "responses": []
+      },
+      {
+          "id": "b80b2287-ff86-78ba-caac-d9522df90f9c",
+          "headers": "Content-Type: application/x-www-form-urlencoded\n",
+          "headerData": [
+              {
+                  "key": "Content-Type",
+                  "value": "application/x-www-form-urlencoded",
+                  "description": "",
+                  "enabled": true
+              }
+          ],
+          "url": "https://games-world.herokuapp.com/regenerate-games",
+          "queryParams": [],
+          "preRequestScript": null,
+          "pathVariables": [],
+          "pathVariableData": [],
+          "method": "GET",
+          "data": [
+              {
+                  "key": "username",
+                  "value": "alexandra_123",
+                  "description": ""
+              },
+              {
+                  "key": "password",
+                  "value": "test",
+                  "description": ""
+              }
+          ],
+          "dataMode": "urlencoded",
+          "version": 2,
+          "tests": null,
+          "currentHelper": "normal",
+          "helperAttributes": [],
+          "time": 1517565584370,
+          "name": "Regenerate DB",
+          "description": "",
+          "collectionId": "2edf64fc-9133-705a-dcdd-13716db795dc",
+          "responses": []
+      },
+      {
+          "id": "bc510b79-39dd-e8e2-f7ee-1dacef784a59",
+          "headers": "Content-Type: application/x-www-form-urlencoded\n",
+          "headerData": [
+              {
+                  "key": "Content-Type",
+                  "value": "application/x-www-form-urlencoded",
+                  "description": "",
+                  "enabled": true
+              }
+          ],
+          "url": "https://games-world.herokuapp.com/games",
+          "queryParams": [],
+          "preRequestScript": null,
+          "pathVariables": [],
+          "pathVariableData": [],
+          "method": "POST",
+          "data": [
+              {
+                  "key": "title",
+                  "value": "Call of Duty®: WWII Returned",
+                  "type": "text",
+                  "enabled": true,
+                  "description": ""
+              },
+              {
+                  "key": "releaseDate",
+                  "value": "1333929600",
+                  "type": "text",
+                  "enabled": true,
+                  "description": ""
+              },
+              {
+                  "key": "genre",
+                  "value": "First Person Shooter",
+                  "type": "text",
+                  "enabled": true,
+                  "description": ""
+              },
+              {
+                  "key": "publisher",
+                  "value": "Activision",
+                  "type": "text",
+                  "enabled": true,
+                  "description": ""
+              },
+              {
+                  "key": "imageUrl",
+                  "value": "https://psmedia.playstation.com/is/image/psmedia/call-of-duty-wwii-two-column-01-ps4-eu-19apr17?$TwoColumn_Image$",
+                  "type": "text",
+                  "enabled": true,
+                  "description": ""
+              }
+          ],
+          "dataMode": "urlencoded",
+          "version": 2,
+          "tests": null,
+          "currentHelper": "normal",
+          "helperAttributes": [],
+          "time": 1517565531436,
+          "name": "Create Game",
+          "description": "",
+          "collectionId": "2edf64fc-9133-705a-dcdd-13716db795dc",
+          "responses": []
+      }
+  ]
+}
